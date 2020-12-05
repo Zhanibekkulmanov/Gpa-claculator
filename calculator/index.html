@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gpa Calculator</title>
+    <script src="mainJS.js"></script>
+    <link rel="stylesheet" href="mainCSS.css">
+</head>
+<body>
+    <h2 style="color: red;">Gpa Calculator</h2>
+    <h4>Grades need to be between 1 to 4</h4>
+    <header>
+        <input type="text" class="txt" id="insertgrade">
+        <input type="button" class="btn" id="insertbtn" value="insert" onclick="insert();">
+        <input type="button" class="btn" id="resetbutton" value="resert" onclick="reset();">
+        <p id="errorwindow"></p>
+    </header>
+    <main>
+        <div class="container">
+        <section class="mainwrapper">
+            <ul>
+                <div id="avarage"></div>
+                <h3>average gpa</h3>
+            </ul>
+            <ul>
+                <div id="highgrade"></div>
+                <h3>high grade</h3>
+            </ul>
+            <ul>
+                <div id="gradesnum"></div>
+                <h3>Number of Grades</h3>
+            </ul>
+            <ul>
+                <div id="lowgrade"></div>
+                <h3>low grade</h3>
+            </ul>    
+        </section>
+        <section class="list">
+            <h3>list of Grades:</h3>
+            <div id="gradeslist"></div>
+        </section>
+        </div>
+    </main>
+    
+</body>
+</html>
